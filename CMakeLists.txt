@@ -9,4 +9,5 @@ add_executable(PS main.cpp
         Easy/26-remove-duplicates-from-sorted-array.cpp
         Medium/80-remove-duplicates-from-sorted-array-ii.cpp
         Easy/169-majority-element.cpp
-        Easy/125-valid-palindrome.cpp)
+        Easy/125-valid-palindrome.cpp
+        Easy/383-ransom-note.cpp)
