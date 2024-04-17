@@ -8,5 +8,7 @@ int main()
 
     s.isPalindrome("0P");
 
+    std::cout << "Hello World" << std::endl;
+
     return 0;
 }
