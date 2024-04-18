@@ -1,14 +1,19 @@
 #include <iostream>
+#include <string>
 
-#include "Easy/125-valid-palindrome.cpp"
+#include "Easy/228-summary-ranges.cpp"
 
 int main()
 {
     Solution s;
 
-    s.isPalindrome("0P");
+    std::vector<int> nums = {};
+    std::vector<std::string> intervals = s.summaryRanges(nums);
+    for (const std::string &interval : intervals)
+    {
+        std::cout << interval << std::endl;
+    }
 
-    std::cout << "Hello World" << std::endl;
-
+    
     return 0;
 }
